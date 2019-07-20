@@ -3,11 +3,12 @@
     "version": "1.0.0",
     "description": "Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)",
     "main": "index.js",
-    "scripts": {
+    "scripts": {        
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack",
         "dev": "webpack-dev-server",
-        "lint": "standard"
+        "lint": "standard",
+        "now-build": "npm run build"
     },
     "repository": {
         "type": "git",
